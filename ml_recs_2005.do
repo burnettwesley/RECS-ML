@@ -5,7 +5,7 @@ clear all;
 *set maxvar 20000;
 global year = "2005";
 
-cd "M:\CEB\WBurnett\RECS and Stat Learn\Stata code\\$year files";
+cd "*Enter your file directory here*";
 
 capture log close;
 log using ml_recs_$year.txt, replace text;
