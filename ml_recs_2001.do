@@ -3,9 +3,9 @@ set more off;
 
 clear all;
 *set maxvar 20000;
-global year = "2001";
+global year = "2001"; */ Enter "2005" for 2005 RECS data; enter "2009" for 2009 RECS data; or enter "2015" for 2015 RECS data. /*
 
-cd "M:\CEB\WBurnett\RECS and Stat Learn\Stata code\\$year files";
+cd "*Enter your file directory here*";
 
 capture log close;
 log using ml_recs_$year.txt, replace text;
