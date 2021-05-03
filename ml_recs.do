@@ -5,7 +5,7 @@ clear all;
 *set maxvar 20000;
 global year = "2001"; */ Enter "2005" for 2005 RECS data; enter "2009" for 2009 RECS data; or enter "2015" for 2015 RECS data. /*
 
-cd "*Enter your file directory here*";
+cd "*Enter your file directory here for where you save the RECS data files*";
 
 capture log close;
 log using ml_recs_$year.txt, replace text;
