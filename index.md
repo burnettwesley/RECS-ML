@@ -13,4 +13,3 @@ This repository includes the most recent working paper version, data, and Stata 
 - [Stata .do file: OLS](https://github.com/lkkinetic/RECS-LASSO/blob/main/var_ols.do), 3 May 2021
 - [Stata .do file: LASSO](https://github.com/lkkinetic/RECS-LASSO/blob/main/stat_learn_recs.do), 3 May 2021
 
-
